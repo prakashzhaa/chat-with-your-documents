@@ -21,18 +21,23 @@ The app integrates ChromaDB as a vector database for efficient PDF handling. Thi
 ## Getting Started 
 To get started with you chatbot application, clone the repository and follow these steps:
 1. **create a conda enviroment:**
-    `conda create --name new_env python=3.9`
-    `conda activate new_env`
-    `conda update --name new_env --all`
-2. **Install Requirements:**
+   `conda create --name new_env python=3.9`
+   `conda activate new_env`
+   `conda update --name new_env --all`
+3. **Install Requirements:**
     `pip install -r requirements.txt`
 
-3. **Locally set quantized models:**
+4. **Locally set quantized models:**
    Download all the models you want to implement.
    * Quantized Mistral Models: (small)[https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/blob/main/mistral-7b-instruct-v0.1.Q3_K_M.gguf]
                                (large)[https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/blob/main/mistral-7b-instruct-v0.1.Q5_K_M.gguf]
    * LLaVa Model: (Clip Model)[https://huggingface.co/mys/ggml_llava-v1.5-7b/blob/main/mmproj-model-f16.gguf]
                   (LLaVA-small)[https://huggingface.co/mys/ggml_llava-v1.5-7b/blob/main/ggml-model-q4_k.gguf]
                    (LLaVA-large)[https://huggingface.co/mys/ggml_llava-v1.5-7b/blob/main/ggml-model-q5_k.gguf]
-   
+5. **Customize config file**
+   Check the config file and change the path according to the models.
+
+6. **Run application**
+   * Initialize chat sessions: `python database_operations.py`
+   * Run Streamlit: `streamlit run app.py`
  
