@@ -1,5 +1,4 @@
 # Chat with your documents
-## Overview
 
 It is an innovative project focusing on building a sophisticated multimodel AI chatbot application. This project integrates various AI models to handle audio, images, and PDFs within a single chat interface. It is an exciting venture for anyone interested in AI and software development, providing a platform to explore and implement cutting-edge technologies.
 
@@ -9,7 +8,7 @@ The core components of this project include WishperAI for audio processing, LLaV
 
 However, this project is still a work in progress. There's a lot of potential for enhancement and optimization.
 
-## Features
+## Characteristics
 * **Quantization Models**
  This app leverages the power of 'quantized models'. These models are particularly special because they are tailored to run efficiently on regular consumer hardware, like the computers most of us use at home or in our lab. Typically, the original versions of these models are quite large and require more powerful machines to operate. However, quantized models are optimized to be smaller and more efficient, maintaining much of their performance. This optimization means you can use this model and its features without needing a high-end computer. The quantized models used in this application are  [TheBloke-Mistral](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF)
 * **Audio Chatting with WishperAI by OpenAI**
