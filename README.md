@@ -40,4 +40,8 @@ To get started with you chatbot application, clone the repository and follow the
 6. **Run application**
    * Initialize chat sessions: `python database_operations.py`
    * Run Streamlit: `streamlit run app.py`
- 
+     
+## Architecture of the application
+
+![Architecture-of-the-application](https://github.com/prakashzhaa/chat-with-your-documents/assets/73091946/43996f94-8f33-4fc2-9487-b2e6f947f7ef)
+
